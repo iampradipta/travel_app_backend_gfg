@@ -1,11 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const hotels = require("../data/hotels")
+const getAllHotelHandler = require("../controllers/hotelController");
 
-router.route('/')
-    .get((req, res) => {
-        res.json(hotels.data)
-    })
+router.route("/")
+    .get(getAllHotelHandler)
 
 module.exports = router;
