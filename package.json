@@ -1,7 +1,7 @@
 {
   "name": "travel_app_backend_gfg",
   "version": "1.0.0",
-  "description": "",
+  "description": "Travel App",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,7 @@
   "author": "Pradipta Dagar",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
